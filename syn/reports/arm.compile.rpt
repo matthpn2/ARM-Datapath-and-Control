@@ -1,0 +1,284 @@
+Warning: Design 'arm' has '2' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Information: Performing power optimization. (PWR-850)
+Alib files are up-to-date.
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | J-2014.09-DWBB_201409.4 |     *     |
+| Licensed DW Building Blocks        | J-2014.09-DWBB_201409.4 |     *     |
+============================================================================
+
+Information: Sequential output inversion is enabled.  SVF file must be used for formal verification. (OPT-1208)
+
+Information: There are 241 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+Information: Building the design 'regfile'. (HDL-193)
+Warning: Cannot find the design 'regfile' in the library 'WORK'. (LBR-1)
+Information: Building the design 'shift'. (HDL-193)
+Warning: Cannot find the design 'shift' in the library 'WORK'. (LBR-1)
+Warning: Unable to resolve reference 'regfile' in 'datapath'. (LINK-5)
+Warning: Unable to resolve reference 'shift' in 'datapath'. (LINK-5)
+Loaded alib file './alib-52/saed32lvt_tt1p05vn40c.db.alib'
+Information: Ungrouping hierarchy c before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy hu before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy c/if_id_reg before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy c/dec before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy c/id_ex_reg before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy c/flagreg1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy c/flagreg0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy c/cc before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy c/ex_mem_reg before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy c/mem_wb_reg before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/brmux before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/resmux before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/srcAEmux before Pass 1 (OPT-776)
+Information: Ungrouping 13 of 30 hierarchies before Pass 1 (OPT-775)
+Information: State dependent leakage is now switched from on to off.
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'flopfl_WIDTH180'
+  Processing 'flopr_WIDTH100_0'
+  Processing 'extend'
+ Implement Synthetic for 'extend'.
+Information: Added key list 'DesignWare' to design 'extend'. (DDB-72)
+  Processing 'flopenr_WIDTH32'
+  Processing 'mux2_WIDTH32_0'
+  Processing 'mux2_WIDTH4_0'
+  Processing 'alu'
+ Implement Synthetic for 'alu'.
+  Processing 'flopflenr_WIDTH64'
+  Processing 'mux3_WIDTH32_0'
+ Implement Synthetic for 'mux3_WIDTH32_0'.
+  Processing 'datapath'
+Information: Added key list 'DesignWare' to design 'datapath'. (DDB-72)
+ Implement Synthetic for 'datapath'.
+  Processing 'arm'
+ Implement Synthetic for 'arm'.
+  Processing 'adder_WIDTH32'
+ Implement Synthetic for 'adder_WIDTH32'.
+Information: Building the design 'regfile'. (HDL-193)
+Warning: Cannot find the design 'regfile' in the library 'WORK'. (LBR-1)
+Information: Building the design 'shift'. (HDL-193)
+Warning: Cannot find the design 'shift' in the library 'WORK'. (LBR-1)
+Warning: Unable to resolve reference 'regfile' in 'datapath'. (LINK-5)
+Warning: Unable to resolve reference 'shift' in 'datapath'. (LINK-5)
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: The library cell 'PMT3_LVT' in the library 'saed32lvt_tt1p05vn40c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PMT2_LVT' in the library 'saed32lvt_tt1p05vn40c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PMT1_LVT' in the library 'saed32lvt_tt1p05vn40c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'NMT3_LVT' in the library 'saed32lvt_tt1p05vn40c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'NMT2_LVT' in the library 'saed32lvt_tt1p05vn40c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'NMT1_LVT' in the library 'saed32lvt_tt1p05vn40c' is not characterized for internal power. (PWR-536)
+Information: The target library(s) contains cell(s), other than black boxes, that are not characterized for internal power. (PWR-24)
+Information: Complementing port 'stallD' in design 'datapath'.
+	 The new name of the port is 'stallD_BAR'. (OPT-319)
+Information: Complementing port 'q[146]' in design 'flopfl_WIDTH180'.
+	 The new name of the port is 'q[146]_BAR'. (OPT-319)
+Information: Complementing port 'q[145]' in design 'flopfl_WIDTH180'.
+	 The new name of the port is 'q[145]_BAR'. (OPT-319)
+Information: Complementing port 'q[142]' in design 'flopfl_WIDTH180'.
+	 The new name of the port is 'q[142]_BAR'. (OPT-319)
+Information: Complementing port 'q[141]' in design 'flopfl_WIDTH180'.
+	 The new name of the port is 'q[141]_BAR'. (OPT-319)
+
+Threshold voltage group cell usage:
+>> saed32cell_lvt 100.00%
+
+  Beginning Mapping Optimizations  (Ultra High effort)
+  -------------------------------
+Information: Added key list 'DesignWare' to design 'adder_WIDTH32'. (DDB-72)
+  Mapping Optimization (Phase 1)
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:13   11030.0      0.77       9.8      61.5                           7439411712.0000
+    0:00:14   11030.0      0.77       9.8      61.5                           7439411712.0000
+    0:00:14   11030.0      0.77       9.8      61.5                           7439411712.0000
+    0:00:14   11030.0      0.77       9.8      61.5                           7439411712.0000
+  Re-synthesis Optimization (Phase 1)
+  Re-synthesis Optimization (Phase 2)
+  Global Optimization (Phase 1)
+  Global Optimization (Phase 2)
+  Global Optimization (Phase 3)
+  Global Optimization (Phase 4)
+  Global Optimization (Phase 5)
+  Global Optimization (Phase 6)
+  Global Optimization (Phase 7)
+  Global Optimization (Phase 8)
+  Global Optimization (Phase 9)
+  Global Optimization (Phase 10)
+  Global Optimization (Phase 11)
+  Global Optimization (Phase 12)
+  Global Optimization (Phase 13)
+  Global Optimization (Phase 14)
+  Global Optimization (Phase 15)
+  Global Optimization (Phase 16)
+  Global Optimization (Phase 17)
+  Global Optimization (Phase 18)
+  Global Optimization (Phase 19)
+  Global Optimization (Phase 20)
+  Global Optimization (Phase 21)
+  Global Optimization (Phase 22)
+  Global Optimization (Phase 23)
+  Global Optimization (Phase 24)
+  Global Optimization (Phase 25)
+  Global Optimization (Phase 26)
+  Global Optimization (Phase 27)
+  Global Optimization (Phase 28)
+  Global Optimization (Phase 29)
+  Global Optimization (Phase 30)
+  Global Optimization (Phase 31)
+  Mapping 'alu_DP_OP_61J2_123_1912_0'
+  Selecting critical implementations
+  Mapping 'alu_DW01_sub_0'
+  Mapping 'alu_DW01_sub_1'
+Information: Added key list 'DesignWare' to design 'alu'. (DDB-72)
+    0:00:25   11770.9      0.51       7.1       5.9                           7772716544.0000
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:25   11770.9      0.51       7.1       5.9                           7772716544.0000
+    0:00:26   11748.3      0.51       7.1       4.2                           7585566208.0000
+    0:00:29   11817.0      0.46       6.4       4.2                           7649624064.0000
+    0:00:29   11817.0      0.46       6.4       4.2                           7649624064.0000
+    0:00:31   11820.6      0.48       6.7       4.2                           7666406912.0000
+    0:00:31   11820.6      0.48       6.7       4.2                           7666406912.0000
+    0:00:35   11820.6      0.48       6.7       4.2                           7666406912.0000
+    0:00:35   11820.6      0.48       6.7       4.2                           7666406912.0000
+    0:00:52   12002.8      0.26       2.6       4.2                           7844730880.0000
+    0:00:52   12002.8      0.26       2.6       4.2                           7844730880.0000
+    0:00:56   12011.2      0.24       2.4       4.2                           7861398016.0000
+
+Threshold voltage group cell usage:
+>> saed32cell_lvt 100.00%
+
+  Beginning Delay Optimization
+  ----------------------------
+    0:00:57   12024.2      0.23       2.3       4.2                           7866356224.0000
+    0:01:03   12035.7      0.22       2.2       4.2                           7871504384.0000
+    0:01:03   12035.7      0.22       2.2       4.2                           7871504384.0000
+    0:01:08   12056.6      0.21       2.0       4.2                           7891414016.0000
+    0:01:09   12056.6      0.21       2.0       4.2                           7891414016.0000
+    0:01:15   12104.1      0.18       1.6       4.2                           7945163776.0000
+    0:01:15   12104.1      0.18       1.6       4.2                           7945163776.0000
+    0:01:19   12104.1      0.17       1.6       4.2                           7945163776.0000
+
+
+  Beginning Design Rule Fixing  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:01:20   12104.1      0.17       1.6       4.2                           7945163776.0000
+  Global Optimization (Phase 32)
+  Global Optimization (Phase 33)
+  Global Optimization (Phase 34)
+    0:01:22   12280.6      0.11       0.8       0.0 dp/pcreg/q_reg[31]/D      8037547520.0000
+    0:01:23   12292.2      0.10       0.7       0.0                           8043294208.0000
+    0:01:30   12300.0      0.11       0.8       0.0                           8048029184.0000
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:01:30   12300.0      0.11       0.8       0.0                           8048029184.0000
+    0:01:30   12305.6      0.11       0.9       6.8                           8059129856.0000
+
+Threshold voltage group cell usage:
+>> saed32cell_lvt 100.00%
+
+
+  Beginning Leakage Power Optimization  (max_leakage_power 0)
+  ------------------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:01:31   12295.3      0.11       0.9       6.8                           8053048320.0000
+  Global Optimization (Phase 35)
+  Global Optimization (Phase 36)
+  Global Optimization (Phase 37)
+  Global Optimization (Phase 38)
+  Global Optimization (Phase 39)
+  Global Optimization (Phase 40)
+  Global Optimization (Phase 41)
+  Global Optimization (Phase 42)
+  Global Optimization (Phase 43)
+  Global Optimization (Phase 44)
+  Global Optimization (Phase 45)
+  Global Optimization (Phase 46)
+  Global Optimization (Phase 47)
+  Global Optimization (Phase 48)
+  Global Optimization (Phase 49)
+  Global Optimization (Phase 50)
+  Global Optimization (Phase 51)
+  Global Optimization (Phase 52)
+  Global Optimization (Phase 53)
+    0:01:40   12135.0      0.08       0.6       0.0                           7980494336.0000
+    0:01:48   12135.0      0.09       0.7       0.0                           7980494336.0000
+    0:01:49   12134.5      0.09       0.7       0.0                           7968677888.0000
+    0:01:58   12134.5      0.09       0.7       0.0                           7968677888.0000
+    0:01:58   12134.5      0.09       0.7       0.0                           7968677888.0000
+    0:01:59   12135.0      0.09       0.7       0.0                           7971075584.0000
+    0:01:59   12135.0      0.09       0.7       0.0                           7971075584.0000
+    0:02:08   12135.0      0.09       0.7       0.0                           7971075584.0000
+    0:02:08   12135.0      0.09       0.7       0.0                           7971075584.0000
+    0:02:15   12195.6      0.06       0.3       0.0                           8046415360.0000
+    0:02:15   12195.6      0.06       0.3       0.0                           8046415360.0000
+    0:02:22   12195.6      0.06       0.2       0.0                           8046415360.0000
+    0:02:22   12195.6      0.06       0.2       0.0                           8046415360.0000
+    0:02:28   12195.6      0.06       0.3       0.0                           8046415360.0000
+    0:02:28   12195.6      0.06       0.3       0.0                           8046415360.0000
+    0:02:36   12195.6      0.06       0.2       0.0                           8046415360.0000
+    0:02:36   12195.6      0.06       0.2       0.0                           8046415360.0000
+    0:02:42   12195.1      0.06       0.2       0.0                           8044017664.0000
+    0:02:42   12195.1      0.06       0.2       0.0                           8044017664.0000
+    0:02:50   12195.1      0.06       0.2       0.0                           8044017664.0000
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:02:50   12195.1      0.06       0.2       0.0                           8044017664.0000
+    0:02:50   12112.6      0.18       1.7       0.0                           7930576384.0000
+    0:02:52   12103.0      0.10       0.6       0.0                           7956001792.0000
+    0:02:53   12113.4      0.10       0.6       0.0                           7935970304.0000
+    0:03:02   12179.9      0.00       0.0       0.0                           8026139648.0000
+    0:03:03   12194.4      0.00       0.0       6.9                           7970033664.0000
+Loading db file '/users/ugrad2/2012/spring/pooriam/libraries/saed32lvt_tt1p05vn40c.db'
+Loading db file '/users/ugrad2/2012/spring/pooriam/libraries/saed32sram_tt1p05vn40c.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Information: Building the design 'regfile'. (HDL-193)
+Warning: Cannot find the design 'regfile' in the library 'WORK'. (LBR-1)
+Information: Building the design 'shift'. (HDL-193)
+Warning: Cannot find the design 'shift' in the library 'WORK'. (LBR-1)
+Warning: Unable to resolve reference 'regfile' in 'datapath'. (LINK-5)
+Warning: Unable to resolve reference 'shift' in 'datapath'. (LINK-5)
+Information: State dependent leakage is now switched from off to on.
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated black box outputs. (PWR-428)
+1

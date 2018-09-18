@@ -1,0 +1,500 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/sim
+vadder
+Z1 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z2 !s110 1490408814
+!i10b 1
+!s100 3<HkHQQCZMS>SGDY@=Xh:1
+I=DA?zcYB?COibiWZhSZ_o1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 adder_sv_unit
+S1
+R0
+Z4 w1490373641
+8/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/adder.sv
+F/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/adder.sv
+L0 1
+Z5 OL;L;10.4c;61
+r1
+!s85 0
+31
+Z6 !s108 1490408814.000000
+Z7 !s107 /users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/top.sv|/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/shift.sv|/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/regfile.sv|/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/mux3.sv|/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/mux2.sv|/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/hazardunit.sv|/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/flopr.sv|/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/flopflenr.sv|/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/flopfl.sv|/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/flopenr.sv|/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/extend.sv|/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/decoder.sv|/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/datapath.sv|/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/controller.sv|/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/condcheck.sv|/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/arm.sv|/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/alu.sv|/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/adder.sv|
+Z8 !s90 -64|-sv|-f|/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/rtl.cfg|
+!i113 0
+Z9 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+valu
+R1
+R2
+!i10b 1
+!s100 mW?:SSFU=:`D00MJl5zJW0
+I>M0<6<@O5D]7Da0l8_=Bj2
+R3
+!s105 alu_sv_unit
+S1
+R0
+R4
+8/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/alu.sv
+F/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/alu.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+varm
+R1
+R2
+!i10b 1
+!s100 0Zm5G>CBW>ER_XP4d8_@Y0
+I9kB4V^[4MnWKN0AloXfZV2
+R3
+!s105 arm_sv_unit
+S1
+R0
+w1490376461
+8/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/arm.sv
+F/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/arm.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vcondcheck
+R1
+R2
+!i10b 1
+!s100 C8N>n^@FKVeKY8]17FQP93
+IWXmH97kU1_>kf6_LK5^CS2
+R3
+!s105 condcheck_sv_unit
+S1
+R0
+R4
+8/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/condcheck.sv
+F/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/condcheck.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vcontroller
+R1
+R2
+!i10b 1
+!s100 kE@8FU]FIoe^kO_17l9F]3
+IZe<H_P`=M<29z2^W<NB5[2
+R3
+!s105 controller_sv_unit
+S1
+R0
+w1490403123
+8/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/controller.sv
+F/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/controller.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vdatapath
+R1
+R2
+!i10b 1
+!s100 i^EziT:G8>OFGHCRZnlCG1
+I49aR?DXG8KY69I[Vhe7IL2
+R3
+!s105 datapath_sv_unit
+S1
+R0
+w1490400594
+8/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/datapath.sv
+F/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/datapath.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vdecoder
+R1
+R2
+!i10b 1
+!s100 7CJdFe60>a30lNdfS;0R00
+I`78M>HPgfQ1GT1iE<E@9A0
+R3
+!s105 decoder_sv_unit
+S1
+R0
+Z10 w1490373633
+8/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/decoder.sv
+F/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/decoder.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vdmem
+R1
+R2
+!i10b 1
+!s100 11LKPBM`5G7Ze2=f0OhA]2
+IW2]WZheJN1zcbzG4hKDLG0
+R3
+!s105 dmem_sv_unit
+S1
+R0
+R4
+8/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/verif/dmem.sv
+F/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/verif/dmem.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+Z11 !s107 /users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/verif/dmem.sv|/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/verif/imem.sv|/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/verif/tb_top.sv|
+Z12 !s90 -64|-sv|-f|/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/verif/tb.cfg|-work|work|
+!i113 0
+Z13 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vextend
+R1
+R2
+!i10b 1
+!s100 kLen43ADAF>DW_7chNG^O1
+IeC:<T[Ma]TLAH04KRgCC31
+R3
+!s105 extend_sv_unit
+S1
+R0
+R10
+8/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/extend.sv
+F/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/extend.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vflopenr
+R1
+R2
+!i10b 1
+!s100 0G_PMf[jOff8QIfLclzK53
+Ig26YGRYTF<nR2n[nEDMR01
+R3
+!s105 flopenr_sv_unit
+S1
+R0
+Z14 w1490388873
+8/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/flopenr.sv
+F/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/flopenr.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vflopfl
+R1
+R2
+!i10b 1
+!s100 KCWCohC2Y[CB=e:hJGKD^1
+ImAPCLDaRaR25@WeD`FX6n0
+R3
+!s105 flopfl_sv_unit
+S1
+R0
+R14
+8/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/flopfl.sv
+F/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/flopfl.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vflopflenr
+R1
+R2
+!i10b 1
+!s100 5F8n7X?>M4ZgdQ:FH0M]H2
+I91N[j4Xaag_`IU2aAzCQn0
+R3
+!s105 flopflenr_sv_unit
+S1
+R0
+w1490389045
+8/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/flopflenr.sv
+F/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/flopflenr.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vflopr
+R1
+R2
+!i10b 1
+!s100 CmWgJ2`IKIFgT[j[6X5II0
+ILN9c?c26@kV?jFCkRh3HR2
+R3
+!s105 flopr_sv_unit
+S1
+R0
+w1490388913
+8/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/flopr.sv
+F/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/flopr.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vhazardunit
+R1
+R2
+!i10b 1
+!s100 VjJPLfnbL6nh@EaG;d7<81
+I7UD=ELO5iozT2IM=0j<7I0
+R3
+!s105 hazardunit_sv_unit
+S1
+R0
+w1490376601
+8/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/hazardunit.sv
+F/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/hazardunit.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vimem
+R1
+R2
+!i10b 1
+!s100 6`1<UW9XjM5SL6@2lG?@l2
+I4<:jek3f3SZFJmE4em4Le1
+R3
+!s105 imem_sv_unit
+S1
+R0
+w1490408362
+8/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/verif/imem.sv
+F/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/verif/imem.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R11
+R12
+!i113 0
+R13
+vmux2
+R1
+R2
+!i10b 1
+!s100 50m8M2]Wd26EmCiD8]hko1
+I>8835j[9Vi=64=`BTViJc3
+R3
+!s105 mux2_sv_unit
+S1
+R0
+Z15 w1490373632
+8/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/mux2.sv
+F/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/mux2.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vmux3
+R1
+R2
+!i10b 1
+!s100 QM0>D315Z^D;<hSP`JR2z1
+IiLbC<cJ`3KCii8N1JANJi2
+R3
+!s105 mux3_sv_unit
+S1
+R0
+R15
+8/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/mux3.sv
+F/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/mux3.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vregfile
+R1
+R2
+!i10b 1
+!s100 Rb^:nIiV4C7Ga8jGL9>oW1
+I>l]fCRlI<P8EnM^E_0jF23
+R3
+!s105 regfile_sv_unit
+S1
+R0
+w1490400539
+8/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/regfile.sv
+F/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/regfile.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vshift
+R1
+R2
+!i10b 1
+!s100 =Bc3TlC7J3a=e`PaC0UhC2
+I8JY@M]L9L92Omc=LALK561
+R3
+!s105 shift_sv_unit
+S1
+R0
+R15
+8/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/shift.sv
+F/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/shift.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vtb_top
+R1
+R2
+!i10b 1
+!s100 0GN7NmzYA>6RfM4:AnYz]2
+IFQ8KD0YoOZB>UVz7j>E8E0
+R3
+!s105 tb_top_sv_unit
+S1
+R0
+w1490408343
+8/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/verif/tb_top.sv
+F/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/verif/tb_top.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R11
+R12
+!i113 0
+R13
+Ttb_top_opt
+R2
+V4lbSL1]d<]PPb5;aI@Ufz2
+04 6 4 work tb_top fast 0
+o+acc -work work
+ntb_top_opt
+OL;O;10.4c;61
+vtop
+R1
+R2
+!i10b 1
+!s100 =XjOG2O`oEaaP;DI^8LPW0
+IV0GPXFAgfOAO=QYXD]UXQ3
+R3
+!s105 top_sv_unit
+S1
+R0
+R15
+8/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/top.sv
+F/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/top.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9

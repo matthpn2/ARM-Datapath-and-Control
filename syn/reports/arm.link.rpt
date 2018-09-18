@@ -1,0 +1,16 @@
+
+  Linking design 'arm'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (21 designs)              /users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/syn/arm.db, etc
+  saed32lvt_tt1p05vn40c (library) /users/ugrad2/2012/spring/pooriam/libraries/saed32lvt_tt1p05vn40c.db
+  saed32sram_tt1p05vn40c (library) /users/ugrad2/2012/spring/pooriam/libraries/saed32sram_tt1p05vn40c.db
+  dw_foundation.sldb (library) /ecelib/linware/synopsys15/dc/libraries/syn/dw_foundation.sldb
+
+Information: Building the design 'regfile'. (HDL-193)
+Warning: Cannot find the design 'regfile' in the library 'WORK'. (LBR-1)
+Information: Building the design 'shift'. (HDL-193)
+Warning: Cannot find the design 'shift' in the library 'WORK'. (LBR-1)
+Warning: Unable to resolve reference 'regfile' in 'datapath'. (LINK-5)
+Warning: Unable to resolve reference 'shift' in 'datapath'. (LINK-5)
+0

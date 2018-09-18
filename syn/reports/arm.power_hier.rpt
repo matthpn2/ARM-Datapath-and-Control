@@ -1,0 +1,76 @@
+Information: Propagating switching activity (medium effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+Warning: Design has unannotated black box outputs. (PWR-428)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort medium
+        -verbose
+Design : arm
+Version: J-2014.09-SP4
+Date   : Fri Mar 24 19:50:50 2017
+****************************************
+
+
+Library(s) Used:
+
+    saed32lvt_tt1p05vn40c (File: /users/ugrad2/2012/spring/pooriam/libraries/saed32lvt_tt1p05vn40c.db)
+
+
+Operating Conditions: tt1p05vn40c   Library: saed32lvt_tt1p05vn40c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+arm                    16000             saed32lvt_tt1p05vn40c
+datapath               16000             saed32lvt_tt1p05vn40c
+mux2_WIDTH32_0         ForQA             saed32lvt_tt1p05vn40c
+flopenr_WIDTH32        8000              saed32lvt_tt1p05vn40c
+adder_WIDTH32          ForQA             saed32lvt_tt1p05vn40c
+flopflenr_WIDTH64      8000              saed32lvt_tt1p05vn40c
+mux2_WIDTH4_0          ForQA             saed32lvt_tt1p05vn40c
+extend                 8000              saed32lvt_tt1p05vn40c
+flopfl_WIDTH180        8000              saed32lvt_tt1p05vn40c
+mux3_WIDTH32_0         ForQA             saed32lvt_tt1p05vn40c
+alu                    8000              saed32lvt_tt1p05vn40c
+flopr_WIDTH100_0       8000              saed32lvt_tt1p05vn40c
+flopr_WIDTH100_1       8000              saed32lvt_tt1p05vn40c
+mux2_WIDTH32_1         ForQA             saed32lvt_tt1p05vn40c
+mux2_WIDTH32_2         ForQA             saed32lvt_tt1p05vn40c
+mux2_WIDTH4_1          ForQA             saed32lvt_tt1p05vn40c
+mux2_WIDTH4_2          ForQA             saed32lvt_tt1p05vn40c
+
+
+Global Operating Voltage = 1.05 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+arm                                     256.583 1.45e+03 7.59e+09 9.29e+03 100.0
+  dp (datapath)                         437.701 1.29e+03 6.81e+09 8.54e+03  91.9
+    mem_wb_reg (flopr_WIDTH100_1)           N/A  221.282 7.87e+08  822.197   8.8
+    ex_mem_reg (flopr_WIDTH100_0)           N/A  213.088 7.83e+08  811.581   8.7
+    alu (alu)                            72.776  228.456 2.18e+09 2.48e+03  26.7
+    srcbmux (mux2_WIDTH32_1)             16.744    6.628 6.69e+07   90.283   1.0
+    srcBEmux (mux3_WIDTH32_0)             2.531    4.730 3.68e+07   44.047   0.5
+    id_ex_reg (flopfl_WIDTH180)             N/A  357.251 1.57e+09 1.75e+03  18.8
+    ext (extend)                          4.191    8.744 9.85e+07  111.443   1.2
+    wd3mux (mux2_WIDTH32_2)               0.932    2.647 3.10e+07   34.566   0.4
+    ra3mux (mux2_WIDTH4_1)             1.18e-02    0.340 7.29e+06    7.645   0.1
+    ra2mux (mux2_WIDTH4_2)                0.299    0.288 4.24e+06    4.829   0.1
+    ra1mux (mux2_WIDTH4_0)                0.264    0.292 7.24e+06    7.797   0.1
+    if_id_reg (flopflenr_WIDTH64)           N/A  137.767 5.48e+08  503.333   5.4
+    pcadd1 (adder_WIDTH32)                1.243    2.412 5.22e+07   55.838   0.6
+    pcreg (flopenr_WIDTH32)                 N/A   83.497 3.15e+08  212.341   2.3
+    pcmux (mux2_WIDTH32_0)                0.680    3.139 4.99e+07   53.753   0.6
+1

@@ -1,0 +1,85 @@
+Warning: Design 'arm' has '2' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : qor
+Design : arm
+Version: J-2014.09-SP4
+Date   : Fri Mar 24 19:50:50 2017
+****************************************
+
+
+  Timing Path Group 'clk'
+  -----------------------------------
+  Levels of Logic:              50.00
+  Critical Path Length:          2.28
+  Critical Path Slack:           0.00
+  Critical Path Clk Period:      2.30
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:         16
+  Hierarchical Port Count:       1885
+  Leaf Cell Count:               2926
+  Buf/Inv Cell Count:             372
+  Buf Cell Count:                  40
+  Inv Cell Count:                 332
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:      2400
+  Sequential Cell Count:          526
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:     5797.278796
+  Noncombinational Area:  3703.894719
+  Buf/Inv Area:            527.602947
+  Total Buffer Area:            90.98
+  Total Inverter Area:         436.62
+  Macro/Black Box Area:      0.000000
+  Net Area:               2693.211718
+  -----------------------------------
+  Cell Area:              9501.173515
+  Design Area:           12194.385233
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:          3161
+  Nets With Violations:             5
+  Max Trans Violations:             0
+  Max Cap Violations:               5
+  -----------------------------------
+
+
+  Hostname: zuma.eecs.uci.edu
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    1.67
+  Logic Optimization:                  3.37
+  Mapping Optimization:              165.13
+  -----------------------------------------
+  Overall Compile Time:              184.26
+  Overall Compile Wall Clock Time:   186.22
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+
+  Design (Hold)  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+  --------------------------------------------------------------------
+
+
+1

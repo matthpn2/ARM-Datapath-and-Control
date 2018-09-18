@@ -1,0 +1,51 @@
+# vsim -c tb_top_opt -do "sim.do" 
+# Start time: 19:26:55 on Mar 24,2017
+# //  Questa Sim-64
+# //  Version 10.4c linux_x86_64 Jul 19 2015
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_top(fast)
+# Loading work.top(fast)
+# Loading work.arm(fast)
+# Loading work.controller(fast)
+# Loading work.flopflenr(fast)
+# Loading work.decoder(fast)
+# Loading work.flopfl(fast)
+# Loading work.flopenr(fast)
+# Loading work.condcheck(fast)
+# Loading work.flopr(fast)
+# Loading work.flopr(fast__1)
+# Loading work.datapath(fast)
+# Loading work.mux2(fast)
+# Loading work.flopenr(fast__1)
+# Loading work.adder(fast)
+# Loading work.flopflenr(fast__1)
+# Loading work.mux2(fast__1)
+# Loading work.regfile(fast)
+# Loading work.extend(fast)
+# Loading work.flopfl(fast__1)
+# Loading work.mux3(fast)
+# Loading work.shift(fast)
+# Loading work.alu(fast)
+# Loading work.flopr(fast__2)
+# Loading work.hazardunit(fast)
+# Loading work.imem(fast)
+# Loading work.dmem(fast)
+# do sim.do
+# waveform.wlf
+# ** Note: $finish    : /users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/verif/tb_top.sv(40)
+#    Time: 1600 ns  Iteration: 0  Instance: /tb_top
+# End time: 19:26:56 on Mar 24,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

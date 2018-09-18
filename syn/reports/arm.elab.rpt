@@ -1,0 +1,207 @@
+Warning: Detected use of obsolete/unsupported feature.  The following
+	will not be available in a future release of the application:
+	elaborate -update. Use plain elaborate instead (CMD-100)
+Loading db file '/ecelib/linware/synopsys15/dc/libraries/syn/gtech.db'
+Loading db file '/ecelib/linware/synopsys15/dc/libraries/syn/standard.sldb'
+  Loading link library 'saed32lvt_tt1p05vn40c'
+  Loading link library 'saed32sram_tt1p05vn40c'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'arm'.
+Information: Building the design 'controller'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'datapath'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'hazardunit'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'flopflenr' instantiated from design 'controller' with
+	the parameters "28". (HDL-193)
+
+Inferred memory devices in process
+	in routine flopflenr_WIDTH28 line 6 in file
+		'/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/flopflenr.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        q_reg        | Flip-flop |  28   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'decoder'. (HDL-193)
+
+Statistics for case statements in always block at line 19 in file
+	'/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/decoder.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            20            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine decoder line 19 in file
+		'/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/decoder.sv'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|    controls_reg     | Latch |  15   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+
+Inferred memory devices in process
+	in routine decoder line 51 in file
+		'/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/decoder.sv'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|  SHIFTControl_reg   | Latch |   5   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+Warning:  /users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/decoder.sv:19: Netlist for always_comb block contains a latch. (ELAB-974)
+Warning:  /users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/decoder.sv:51: Netlist for always_comb block contains a latch. (ELAB-974)
+Presto compilation completed successfully.
+Information: Building the design 'flopfl' instantiated from design 'controller' with
+	the parameters "30". (HDL-193)
+
+Inferred memory devices in process
+	in routine flopfl_WIDTH30 line 6 in file
+		'/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/flopfl.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        q_reg        | Flip-flop |  30   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'flopenr' instantiated from design 'controller' with
+	the parameters "2". (HDL-193)
+
+Inferred memory devices in process
+	in routine flopenr_WIDTH2 line 6 in file
+		'/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/flopenr.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        q_reg        | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'condcheck'. (HDL-193)
+
+Statistics for case statements in always block at line 10 in file
+	'/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/condcheck.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            11            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'flopr' instantiated from design 'controller' with
+	the parameters "9". (HDL-193)
+
+Inferred memory devices in process
+	in routine flopr_WIDTH9 line 6 in file
+		'/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/flopr.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        q_reg        | Flip-flop |   9   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'flopr' instantiated from design 'controller' with
+	the parameters "4". (HDL-193)
+
+Inferred memory devices in process
+	in routine flopr_WIDTH4 line 6 in file
+		'/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/flopr.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        q_reg        | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'mux2' instantiated from design 'datapath' with
+	the parameters "32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'flopenr' instantiated from design 'datapath' with
+	the parameters "32". (HDL-193)
+
+Inferred memory devices in process
+	in routine flopenr_WIDTH32 line 6 in file
+		'/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/flopenr.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        q_reg        | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'adder' instantiated from design 'datapath' with
+	the parameters "32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'flopflenr' instantiated from design 'datapath' with
+	the parameters "64". (HDL-193)
+
+Inferred memory devices in process
+	in routine flopflenr_WIDTH64 line 6 in file
+		'/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/flopflenr.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        q_reg        | Flip-flop |  64   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'mux2' instantiated from design 'datapath' with
+	the parameters "4". (HDL-193)
+Presto compilation completed successfully.
+Warning: Cannot find the design 'regfile' in the library 'WORK'. (LBR-1)
+Information: Building the design 'regfile'. (HDL-193)
+Warning: Cannot find the design 'regfile' in the library 'WORK'. (LBR-1)
+Information: Building the design 'extend'. (HDL-193)
+
+Statistics for case statements in always block at line 8 in file
+	'/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/extend.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            9             |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'flopfl' instantiated from design 'datapath' with
+	the parameters "180". (HDL-193)
+
+Inferred memory devices in process
+	in routine flopfl_WIDTH180 line 6 in file
+		'/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/flopfl.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        q_reg        | Flip-flop |  180  |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'mux3' instantiated from design 'datapath' with
+	the parameters "32". (HDL-193)
+Presto compilation completed successfully.
+Warning: Cannot find the design 'shift' in the library 'WORK'. (LBR-1)
+Information: Building the design 'shift'. (HDL-193)
+Warning: Cannot find the design 'shift' in the library 'WORK'. (LBR-1)
+Information: Building the design 'alu'. (HDL-193)
+Warning:  /users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/alu.sv:26: DEFAULT branch of CASE statement cannot be reached. (ELAB-311)
+
+Statistics for case statements in always block at line 19 in file
+	'/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/alu.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            26            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'flopr' instantiated from design 'datapath' with
+	the parameters "100". (HDL-193)
+
+Inferred memory devices in process
+	in routine flopr_WIDTH100 line 6 in file
+		'/users/ugrad2/2015/fall/matthpn2/cse132L/final-lab-pipeline/design/flopr.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        q_reg        | Flip-flop |  100  |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Warning: Design 'arm' has '2' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
